@@ -1,0 +1,315 @@
+.Settings-section {
+    background-color: #eaeafb; 
+}
+
+.Settings-section .Body_content {
+
+    margin: 0px 40px 40px 40px;
+    border-radius: 50%;
+  
+  }
+
+.Header_text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+.setting-option {
+    margin-bottom: 10px;
+    display: flex;
+    
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+
+.setting-option #logout {
+    padding: 8px 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1.5%;
+    width: fit-content;
+    height: 15mm;
+    font-size: 18px;
+}
+
+.setting-option #logout:hover{
+    background-color: #0056b3;
+
+    
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+.Settings-section .Body-Content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+  }
+  
+  .setting-item {
+    background: #f1f1f1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .setting-item h3 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .setting-item p {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .setting-item button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .setting-item button:hover {
+    background-color: #0056b3;
+  }
+
+  .theme-preview .preview-container {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  
+  .preview-dashboard .preview-widget {
+    background: #eee;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    color: #333;
+    
+  }
+  
+.preview-container .preview-widget {
+    background: #eee;
+    color: #333;
+    margin: 10px;
+}
+
+.preview-dark-mode .preview-widget {
+    background: #555;
+    color: #fff;
+  }
+ 
+  .setting-item .Details-form{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 9999;
+  }
+
+  .setting-item .password-form {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 9999;
+  }
+
+  /* Dark Mode for Settings Section */
+body.dark-mode .Settings-section {
+  background-color: #333;
+  color: #f1f1f1;
+}
+
+body.dark-mode .setting-option #logout {
+  background-color: #007bff;
+  color: #fff;
+}
+
+body.dark-mode .setting-option #logout:hover {
+  background-color: #0056b3;
+}
+
+body.dark-mode .setting-item {
+  background: #424242;
+}
+
+body.dark-mode .setting-item button {
+  background-color: #007bff;
+}
+
+body.dark-mode .setting-item button:hover {
+  background-color: #0056b3;
+}
+
+body.dark-mode .theme-preview .preview-container {
+  background: #222;
+  border-color: #555;
+}
+
+body.dark-mode .preview-dashboard .preview-widget {
+  background: #333;
+  color: #fff;
+}
+
+body.dark-mode .setting-item .popup-form,
+body.dark-mode .setting-item .password-form {
+  background-color: #333;
+  border-color: #555;
+  color: #f1f1f1;
+}
+
+
+.Details-form {
+  display: none;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 350px;
+}
+
+.Details-form h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.Details-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.Details-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Details-form .buttons {
+  margin-top: 20px;
+}
+
+.Details-form .buttons button {
+  padding: 8px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#update-details-btn {
+  
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+#submit-details {
+  background-color: #008CBA;
+  color: white;
+}
+
+#submit-details:hover {
+  background-color: #005f75;
+}
+
+.password-form {
+  display: none;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.password-form h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.password-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.password-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.password-form .buttons {
+  margin-top: 20px;
+}
+
+.password-form .buttons button {
+  padding: 8px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#update-password-btn {
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+
+#submit_password {
+  background-color: #008CBA;
+  color: white;
+}
+
+#submit_password:hover {
+  background-color: #005f75;
+}

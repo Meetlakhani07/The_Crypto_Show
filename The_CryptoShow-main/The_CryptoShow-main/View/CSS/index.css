@@ -1,0 +1,43 @@
+.index-cards-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+}
+
+.index-cards-container h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.index-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.index-card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    
+}
+
+.index-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Hover Effect */
+.index-card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    
+}
+

@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    background-color: #f3f7f5;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.AboutUscontainer {
+    position: relative;
+    height: 80vh;
+    width: 92%;
+    margin: 60px auto;
+    padding-top: 10px;
+    border-radius: 40px;
+    background-image: url('../../Assets/Website Images/About Us Image2.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.AboutUscontainer span {
+    font-size: 200%;
+    text-align: center;
+}
+
+.AboutUscontainer .links .Get_Started {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin: 30px;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: max-content;
+    will-change: transform;
+}
+
+.AboutUscontainer .links .Get_Started:disabled {
+    pointer-events: none;
+}
+
+.AboutUscontainer .links .Get_Started:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.AboutUscontainer .links .Get_Started:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+
+
+#Section2 {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-direction: row;
+}
+
+.text2 {
+    margin: 0% 6% 2% 6%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: flex-start;
+    width: calc(100% - 8%);
+}
+
+.text2 .LhsContent {
+    flex: 1 60%;
+    margin-right: 80px;
+}
+
+.text2 .RhsContent {
+    flex: 2 40%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-items: left;
+}
+
+.text2 span .text2 p {
+    text-align: left;
+}
+
+.text2 .Title span {
+    font-size: 40px;
+    color: darkgreen;
+}
+
+.text2 .Paragraph p {
+
+    text-align: left;
+    word-spacing: 5px;
+    font-size: 24px;
+
+}
+
+.text2 .One .Two .Three {
+    text-align: left;
+
+}
+
+.text2 .One span,
+.Two span,
+.Three span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text2 .One p {
+    font-size: 18px;
+
+}
+
+.text2 .Two p {
+    font-size: 20px;
+}
+
+.text2 .Three p {
+    font-size: 20px;
+}
+
+.text3 {
+    /* margin: 2% 7% 2% 7%; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(100% - 8%);
+}
+
+.text3 p {
+    text-align: left;
+    font-size: 24px;
+}
+
+
+.picture {
+    background-color: lightgray;
+    height: 500px;
+    width: 100%;
+    margin-left: 7%;
+    align-items: center;
+    border-radius: 15px;
+    flex: 1 100%;
+    background-image: url('../../Assets/Website Images/Mission.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+#Section3,
+#Section4 {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-direction: row;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+}
+
+
+.text4 {
+    /* margin: 2% 7% 4% 7%; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(100% - 8%);
+
+}
+
+.text3 span,
+.text4 span {
+    font-size: 5rem;
+
+}
+
+.text4 p {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+
+.Picture2 {
+    background-color: lightgray;
+    height: 500px;
+    width: 100%;
+    margin-right: 7%;
+    align-items: center;
+    border-radius: 15px;
+    flex: 1 100%;
+    background-image: url('../../Assets/Website Images/Vision.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#section5 {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container2 {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.member {
+    flex: 0 0 calc(50% - 20px);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.details {
+    margin-left: 10px;
+}
+
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-AboutUscontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2%;
+
+}
+
+.social-icon {
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    transition: transform 0.15s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.5);
+}
+
+.footer-text h2 {
+    color: black;
+    font-size: 20px;
+    transition: color cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+    margin-left: 20px;
+}
+
+.footer-text h2:hover {
+    color: rgb(0, 0, 0);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.background-design {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+
+.section {
+    animation: fade-in linear;
+    animation-timeline: view();
+}
+
+
+@keyframes fade-in {
+    from {
+        scale: .8;
+        opacity: 1;
+    }
+
+    to {
+        scale: 1;
+        opacity: 1
+    }
+}
